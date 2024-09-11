@@ -22,7 +22,7 @@ bash
 
 bash
 *     python -m venv venv
-*     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+      source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ## Install the required packages using pip:
 
 bash
@@ -32,43 +32,36 @@ bash
 Download the ChromeDriver version that matches your installed Chrome browser version from ChromeDriver Downloads and place it in a directory included in your system’s PATH.
 
 ## Configuration
-Update Credentials
+1. Update Credentials
 
 Open spotify_web_scraping.py and replace the placeholders with your Spotify credentials:
 
 python
-Copy code
-input_field.send_keys("Enter your email id")
-password_field.send_keys("enter your password")
+
+*     input_field.send_keys("Enter your email id")
+*     password_field.send_keys("enter your password")
 Note: Ensure that you handle your credentials securely and avoid hardcoding sensitive information in scripts.
 
-Set the Path to ChromeDriver
+2. Set the Path to ChromeDriver
 
 Make sure ChromeDriver is accessible in your PATH or specify its path explicitly in the webdriver.Chrome() initialization.
 
-Usage
-Run the Script
-
+## Usage
+1. Run the Script
 Execute the script from the command line:
 
-bash
-Copy code
-python spotify_web_scraping.py
+*     python spotify_web_scraping.py
 The script will log in to Spotify, navigate to your liked tracks, and save the track details into tracklist.csv.
 
-Check the Output
+2. Check the Output
 
-tracklist.csv: The CSV file where the extracted track information is stored.
-spotify_scraping.log: The log file that records any errors encountered during the scraping process.
-Troubleshooting
-NoSuchElementException: Verify the CSS selectors and XPaths used in the script. The page structure may have changed, and the selectors might need updating.
-Login Issues: Ensure that your credentials are correct and that two-factor authentication is not required. If necessary, handle authentication flows appropriately.
-Contributing
+* tracklist.csv: The CSV file where the extracted track information is stored.
+* spotify_scraping.log: The log file that records any errors encountered during the scraping process.
+
+## Contributing
 Feel free to contribute to this project by submitting issues or pull requests. Ensure that your changes align with the project's goals and follow the coding standards.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Contact
-For any questions or issues, please contact Your Name.
+## Contact
+For any questions or issues, please contact sayprincekumar20@gmail.com.
 

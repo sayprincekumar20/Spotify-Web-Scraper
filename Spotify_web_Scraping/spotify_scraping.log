@@ -1,0 +1,1 @@
+2024-09-11 14:19:04,355 - ERROR: Error while scrolling and extracting data: 'NoneType' object has no attribute 'text'

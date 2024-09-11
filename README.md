@@ -18,7 +18,7 @@ bash
        cd spotify-track-scraper
 ## Install Required Python Packages
 
-## Create a virtual environment (optional but recommended):
+Create a virtual environment (optional but recommended):
 
 bash
 *     python -m venv venv

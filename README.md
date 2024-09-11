@@ -11,7 +11,7 @@ This project is a web scraping tool that extracts track information from Spotify
 * Google Chrome: The script uses the Chrome WebDriver. Make sure Google Chrome is installed.
 * ChromeDriver: Download and install the appropriate version of ChromeDriver from ChromeDriver Downloads.
 # Installation
-## Clone the Repository
+ Clone the Repository
 
 bash
  *     git clone https://github.com/sayprincelumar20/spotify-track-scraper.git
